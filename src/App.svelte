@@ -9,6 +9,11 @@
 
 	import Messages from './features/Messages.svelte';
 	import MessagesLoop from './features/MessagesLoop.svelte';
+	import MessagesLoopIndex from './features/MessagesLoopIndex.svelte';
+	import MessagesLoopKeyed from './features/MessagesLoopKeyed.svelte';
+	
+	import Await from './features/Await.svelte';
+	import AwaitError from './features/AwaitError.svelte';
 
 	const obj = {
 		text: "Custom Button",
@@ -38,4 +43,8 @@
 	<ButtonProps {...obj} />
 	<Messages />
 	<MessagesLoop />
+	<MessagesLoopIndex />
+	<MessagesLoopKeyed />
+	<Await />
+	<AwaitError />
 </main>
